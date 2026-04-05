@@ -332,7 +332,7 @@ export default function App() {
 
           {/* Footer */}
           <footer className="mt-20 pt-8 border-t border-stone-200 text-center text-stone-400 text-xs">
-            <p>© {new Date().getFullYear()} Ruiting Mao. Built with React & Tailwind CSS.</p>
+            <p>© {new Date().getFullYear()} Ruiting Mao.</p>
           </footer>
 
         </main>
