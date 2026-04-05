@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 
 import { LisaIcon, NzGravityIcon, OzGravIcon } from "./components/CustomIcons";
+import profilePhoto from "../me.jpg";
 
 const SectionHeader = ({ icon: Icon, title }: { icon: any, title: string }) => (
   <div className="flex items-center gap-3 mb-6 border-b border-stone-200 pb-2">
@@ -60,16 +61,12 @@ export default function App() {
             animate={{ opacity: 1, scale: 1 }}
             className="flex flex-col items-center md:items-start text-center md:text-left"
           >
-            {/* Photo Placeholder */}
+            {/* Profile Photo */}
             <div className="w-48 h-48 md:w-56 md:h-56 bg-stone-200 rounded-2xl mb-6 overflow-hidden border-4 border-white shadow-lg relative group">
-              <div className="absolute inset-0 flex items-center justify-center text-stone-400 font-serif italic">
-                Photo Placeholder
-              </div>
               <img 
-                src="https://picsum.photos/seed/academic/400/400" 
+                src={profilePhoto}
                 alt="Ruiting Mao" 
                 className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
-                referrerPolicy="no-referrer"
               />
             </div>
 
