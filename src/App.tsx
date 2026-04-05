@@ -70,7 +70,7 @@ export default function App() {
               />
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-serif font-bold text-stone-900 mb-2">Ruiting Mao</h1>
+            <h1 className="text-3xl md:text-3xl font-serif font-bold text-stone-900 mb-2">Mica (Ruiting) Mao</h1>
             <p className="text-lg text-stone-600 font-medium mb-6">PhD Candidate in Statistics</p>
             
             <div className="space-y-3 text-sm text-stone-600 w-full">
